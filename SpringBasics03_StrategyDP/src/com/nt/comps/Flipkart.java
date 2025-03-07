@@ -3,18 +3,15 @@ package com.nt.comps;
 import java.util.Arrays;
 import java.util.Random;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
+@Component("fpkt")
 public class Flipkart {
 	
+	@Autowired
 	private Courier courier;
-
-	public Courier getCourier() {
-		return courier;
-	}
-
-	public void setCourier(Courier courier) {
-		this.courier = courier;
-	}
-	
 	
 	public String shopping(String items[],double prices[]) {
 		double billAmount=0.0;

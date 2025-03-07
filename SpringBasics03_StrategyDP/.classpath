@@ -6,5 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="/JRTP701-MiniProj02-ReportAPII"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
